@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Nomenclatures>
+	<Nomenclature GUID="00004115   ">
+		<Shops>
+			<Shop GUID="280b2abe-905a-4641-80d5-58b957fc4033" Quantity="100"/>
+			<Shop GUID="3427d668-7992-11e4-509f-c86000606f92" Quantity="450"/>
+			<Shop GUID="cf74acc9-ebb2-41a4-897c-2d457b19dd53" Quantity="625"/>
+			<Shop GUID="ce3d89a0-3070-4d76-a53e-09fa3fc1f4d5" Quantity="625"/>
+			<Shop GUID="9e6471ab-3d71-4ff1-bfb4-67242783e299" Quantity="775"/>
+			<Shop GUID="e515df40-89e7-4823-b26b-c3e4ceaee961" Quantity="1225"/>
+			<Shop GUID="29cd32c4-0c6c-43be-bb65-7f66df8ab0ce" Quantity="25"/>
+			<Shop GUID="382554df-51a5-47fe-ac69-d07839d91950" Quantity="305"/>
+			<Shop GUID="179f74ac-ea1c-11e3-9d8e-c86000606f92" Quantity="775"/>
+			<Shop GUID="c62fd75f-c258-4abf-8fc7-bbb4651ab21c" Quantity="550"/>
+			<Shop GUID="778dc3b1-c46a-4123-a09d-0c0df6ddd12f" Quantity="400"/>
+			<Shop GUID="133f2de2-c0e0-11e1-8380-50e549b397c6" Quantity="650"/>
+			<Shop GUID="5166c33d-2959-4323-8be2-a17b6c0674cf" Quantity="750"/>
+			<Shop GUID="e1997b58-e49b-11e3-178c-c86000606f92" Quantity="475"/>
+			<Shop GUID="64b50e98-3d94-11e4-0e9c-c86000606f92" Quantity="700"/>
+			<Shop GUID="23bee1ba-8f4d-11e4-2f98-c86000606f92" Quantity="275"/>
+			<Shop GUID="74fb13f9-f548-430e-8ce2-e45600a1db84" Quantity="1725"/>
+			<Shop GUID="7381a6fa-7aff-4568-8149-a27171ea92b0" Quantity="850"/>
+			<Shop GUID="ad7e7966-cd7f-11e1-4d85-50e549b397c6" Quantity="500"/>
+			<Shop GUID="d00ba26b-dcd4-4f1b-9660-93dd6b946832" Quantity="888"/>
+			<Shop GUID="8d39edce-2f94-4158-af09-7890183ccd6f" Quantity="800"/>
+			<Shop GUID="1de35f32-0cee-11e4-b397-c86000606f92" Quantity="700"/>
+			<Shop GUID="ac6b7bf7-f4eb-4bcb-b3be-a71abe2c4e11" Quantity="150"/>
+			<Shop GUID="cfe0370c-3cf1-416d-bbcc-81175ee29548" Quantity="465"/>
+			<Shop GUID="2ed648c5-017b-4750-9e93-82cc6a767e62" Quantity="700"/>
+			<Shop GUID="73c7e84c-8173-11e4-509f-c86000606f92" Quantity="200"/>
+			<Shop GUID="149e973f-418e-4fe1-8908-a88317ebbdcb" Quantity="950"/>
+			<Shop GUID="8f1edb2e-53a5-11e4-1997-c86000606f92" Quantity="725"/>
+			<Shop GUID="ba9b7b20-31a1-11e4-4c86-c86000606f92" Quantity="650"/>
+			<Shop GUID="350ffe62-84b0-43af-b2c7-adf8366871d3" Quantity="1325"/>
+			<Shop GUID="58c9e24a-457c-45f6-9190-6cf199580af7" Quantity="1750"/>
+			<Shop GUID="1dfab4e7-7f71-4550-9c0d-faea216db82e" Quantity="549"/>
+			<Shop GUID="bc124ef8-4d25-11e4-fc93-c86000606f92" Quantity="450"/>
+			<Shop GUID="3c37c690-1c65-11e4-eb90-c86000606f92" Quantity="875"/>
+			<Shop GUID="31ca54a4-b398-4c1e-b04a-18e3ee73750e" Quantity="725"/>
+			<Shop GUID="69cb9bd8-ecac-11e3-0196-c86000606f92" Quantity="325"/>
+			<Shop GUID="1c9db366-3069-4d75-bcfd-6e2f7852e042" Quantity="775"/>
+			<Shop GUID="d3700ac8-c61e-4bf2-a3ec-7d8c09974689" Quantity="575"/>
+			<Shop GUID="bbb810af-6041-41f0-bb5f-9d8a4d1b0afd" Quantity="725"/>
+			<Shop GUID="0954ba84-314b-451b-aac4-7757a12da5e4" Quantity="300"/>
+			<Shop GUID="e365450a-488e-4e36-b56b-7ea3b2823e2b" Quantity="275"/>
+			<Shop GUID="871af989-f6ec-4076-a22f-fbbe2219264d" Quantity="500"/>
+			<Shop GUID="5b7c4c8c-6314-4644-a8e7-0e76b7824bff" Quantity="1100"/>
+			<Shop GUID="c8b911ce-74b1-11e4-2090-c86000606f92" Quantity="525"/>
+			<Shop GUID="c73c0bbe-12b4-4e88-9545-b589fad8eede" Quantity="50"/>
+		</Shops>
+	</Nomenclature>
+	<Nomenclature GUID="00094044   ">
+		<Shops>
+			<Shop GUID="1e8bba16-ea1f-11e3-869e-c86000606f92" Quantity="1"/>
+		</Shops>
+	</Nomenclature>
+	<Nomenclature GUID="00049255   ">
+		<Shops>
+			<Shop GUID="1d387d1c-05f2-4123-b459-21a1e792f258" Quantity="1"/>
+			<Shop GUID="133f2de2-c0e0-11e1-8380-50e549b397c6" Quantity="3"/>
+			<Shop GUID="ce3d89a0-3070-4d76-a53e-09fa3fc1f4d5" Quantity="6"/>
+			<Shop GUID="0954ba84-314b-451b-aac4-7757a12da5e4" Quantity="1"/>
+		</Shops>
+	</Nomenclature>
+	<Nomenclature GUID="00157511   ">
+		<Shops>
+			<Shop GUID="3c37c690-1c65-11e4-eb90-c86000606f92" Quantity="1"/>
+			<Shop GUID="1e8bba16-ea1f-11e3-869e-c86000606f92" Quantity="1"/>
+			<Shop GUID="2ed648c5-017b-4750-9e93-82cc6a767e62" Quantity="1"/>
+			<Shop GUID="d00ba26b-dcd4-4f1b-9660-93dd6b946832" Quantity="1"/>
+			<Shop GUID="23bee1ba-8f4d-11e4-2f98-c86000606f92" Quantity="1"/>
+			<Shop GUID="778dc3b1-c46a-4123-a09d-0c0df6ddd12f" Quantity="1"/>
+			<Shop GUID="5166c33d-2959-4323-8be2-a17b6c0674cf" Quantity="1"/>
+			<Shop GUID="8d39edce-2f94-4158-af09-7890183ccd6f" Quantity="2"/>
+			<Shop GUID="280b2abe-905a-4641-80d5-58b957fc4033" Quantity="2"/>
+			<Shop GUID="58c9e24a-457c-45f6-9190-6cf199580af7" Quantity="2"/>
+			<Shop GUID="cfe0370c-3cf1-416d-bbcc-81175ee29548" Quantity="2"/>
+			<Shop GUID="73c7e84c-8173-11e4-509f-c86000606f92" Quantity="2"/>
+			<Shop GUID="c62fd75f-c258-4abf-8fc7-bbb4651ab21c" Quantity="1"/>
+			<Shop GUID="d3700ac8-c61e-4bf2-a3ec-7d8c09974689" Quantity="2"/>
+		</Shops>
+	</Nomenclature>
+	<Nomenclature GUID="00161732   ">
+		<Shops>
+			<Shop GUID="69cb9bd8-ecac-11e3-0196-c86000606f92" Quantity="3"/>
+			<Shop GUID="280b2abe-905a-4641-80d5-58b957fc4033" Quantity="2"/>
+			<Shop GUID="ce3d89a0-3070-4d76-a53e-09fa3fc1f4d5" Quantity="1"/>
+			<Shop GUID="8d39edce-2f94-4158-af09-7890183ccd6f" Quantity="3"/>
+			<Shop GUID="9e6471ab-3d71-4ff1-bfb4-67242783e299" Quantity="1"/>
+			<Shop GUID="149e973f-418e-4fe1-8908-a88317ebbdcb" Quantity="3"/>
+		</Shops>
+	</Nomenclature>
+	<Nomenclature GUID="00179521   ">
+		<Shops>
+			<Shop GUID="280b2abe-905a-4641-80d5-58b957fc4033" Quantity="30"/>
+			<Shop GUID="74fb13f9-f548-430e-8ce2-e45600a1db84" Quantity="10"/>
+			<Shop GUID="3427d668-7992-11e4-509f-c86000606f92" Quantity="5"/>
+			<Shop GUID="ac6b7bf7-f4eb-4bcb-b3be-a71abe2c4e11" Quantity="14"/>
+			<Shop GUID="ce3d89a0-3070-4d76-a53e-09fa3fc1f4d5" Quantity="24"/>
+			<Shop GUID="9e6471ab-3d71-4ff1-bfb4-67242783e299" Quantity="6"/>
+			<Shop GUID="1de35f32-0cee-11e4-b397-c86000606f92" Quantity="9"/>
+			<Shop GUID="cf74acc9-ebb2-41a4-897c-2d457b19dd53" Quantity="30"/>
+			<Shop GUID="133f2de2-c0e0-11e1-8380-50e549b397c6" Quantity="14"/>
+			<Shop GUID="d00ba26b-dcd4-4f1b-9660-93dd6b946832" Quantity="15"/>
+			<Shop GUID="cfe0370c-3cf1-416d-bbcc-81175ee29548" Quantity="12"/>
+			<Shop GUID="1d387d1c-05f2-4123-b459-21a1e792f258" Quantity="33"/>
+			<Shop GUID="c62fd75f-c258-4abf-8fc7-bbb4651ab21c" Quantity="12"/>
+			<Shop GUID="bc124ef8-4d25-11e4-fc93-c86000606f92" Quantity="12"/>
+			<Shop GUID="778dc3b1-c46a-4123-a09d-0c0df6ddd12f" Quantity="15"/>
+			<Shop GUID="0954ba84-314b-451b-aac4-7757a12da5e4" Quantity="33"/>
+			<Shop GUID="5166c33d-2959-4323-8be2-a17b6c0674cf" Quantity="12"/>
+			<Shop GUID="e1997b58-e49b-11e3-178c-c86000606f92" Quantity="21"/>
+			<Shop GUID="8d39edce-2f94-4158-af09-7890183ccd6f" Quantity="21"/>
+			<Shop GUID="23bee1ba-8f4d-11e4-2f98-c86000606f92" Quantity="21"/>
+			<Shop GUID="350ffe62-84b0-43af-b2c7-adf8366871d3" Quantity="9"/>
+			<Shop GUID="149e973f-418e-4fe1-8908-a88317ebbdcb" Quantity="12"/>
+			<Shop GUID="8f1edb2e-53a5-11e4-1997-c86000606f92" Quantity="9"/>
+			<Shop GUID="58c9e24a-457c-45f6-9190-6cf199580af7" Quantity="15"/>
+			<Shop GUID="ba9b7b20-31a1-11e4-4c86-c86000606f92" Quantity="25"/>
+			<Shop GUID="871af989-f6ec-4076-a22f-fbbe2219264d" Quantity="18"/>
+			<Shop GUID="1dfab4e7-7f71-4550-9c0d-faea216db82e" Quantity="18"/>
+			<Shop GUID="2ed648c5-017b-4750-9e93-82cc6a767e62" Quantity="30"/>
+			<Shop GUID="d3700ac8-c61e-4bf2-a3ec-7d8c09974689" Quantity="12"/>
+			<Shop GUID="5b7c4c8c-6314-4644-a8e7-0e76b7824bff" Quantity="8"/>
+			<Shop GUID="3729a1d9-5a06-492e-bb72-7998c52107c4" Quantity="6"/>
+			<Shop GUID="64b50e98-3d94-11e4-0e9c-c86000606f92" Quantity="12"/>
+			<Shop GUID="7381a6fa-7aff-4568-8149-a27171ea92b0" Quantity="17"/>
+			<Shop GUID="73c7e84c-8173-11e4-509f-c86000606f92" Quantity="15"/>
+			<Shop GUID="3c37c690-1c65-11e4-eb90-c86000606f92" Quantity="6"/>
+			<Shop GUID="c8b911ce-74b1-11e4-2090-c86000606f92" Quantity="9"/>
+			<Shop GUID="382554df-51a5-47fe-ac69-d07839d91950" Quantity="6"/>
+			<Shop GUID="1e8bba16-ea1f-11e3-869e-c86000606f92" Quantity="30"/>
+			<Shop GUID="69cb9bd8-ecac-11e3-0196-c86000606f92" Quantity="14"/>
+			<Shop GUID="bbb810af-6041-41f0-bb5f-9d8a4d1b0afd" Quantity="24"/>
+		</Shops>
+	</Nomenclature>		
+</Nomenclatures>
