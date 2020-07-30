@@ -28,7 +28,7 @@ function xml2assoc(&$xml){
     return $assoc;
 }
 
-$glob = glob("/var/www/sibirix2/data/www/ohotaktiv.ru/12dev/quantity/xml/*.xml");
+$glob = glob("/var/www/sibirix2/data/www/ohotaktiv.ru/obmen_files/quantity/*.xml");
 
 echo "file_count: ".count($glob)."<br>";
 
