@@ -69,6 +69,7 @@ while ($h_counter < $end) {
         $item = $res->Fetch();
 			if (!empty($item['ID']) && $item['ACTIVE'] = 'Y') { 
 			$el = $item['ID']; 
+			echo "ID PROD: ".$el."<br>";
 			}
 		}
 
@@ -76,21 +77,50 @@ while ($h_counter < $end) {
 
 	while (count($assoc[0]['val'][$h_counter]['val'][0]['val']) > $file_c) {
 
-		$sh_guid = $assoc[0]['val'][$h_counter]['val'][0]['val'][$file_c]['atr']['GUID'];
+		$sh_guid = $assoc[0]['val'][$h_counter]['val'][0]['val'][$file_c]['atr']['GUID']; // Если гуид БД-2, то плюс в гуид БД-1
+
+		/* Quantina Mirage Merge */
+		/* Duplcate mirror store. Exchange guids */
+	  if ($sh_guid == '4b3688d8-10af-11e8-80db-c86000606f92') { // Если НН Лескова БД-2
+	$sh_guid = 'ee10dd60-a700-489c-ac7d-bb5504a74510'; 	 // + guid БД-1
+} elseif ($sh_guid == '38cb753a-88c3-11e8-80e4-c86000606f92') { // Если НН Бекетова БД-2
+	$sh_guid = '3934afd9-db2e-4e40-be95-232d6c1c8947'; 	 // + guid БД-1
+} elseif ($sh_guid == '84d58d66-88c5-11e8-80e4-c86000606f92') { // Если НН Казан. шоссе БД-2
+	$sh_guid = '8337fbada-4a69-48ff-a960-552966d2eba0'; 	 // + guid БД-1
+} elseif ($sh_guid == 'cd840965-b4d3-11e8-80eb-c86000606f92') { // Если НН Культуры БД-2
+	$sh_guid = 'e2d59019-086b-44ac-b757-c5867e708ad5'; 	 // + guid БД-1
+} elseif ($sh_guid == '88abc5c0-b724-11e8-80eb-c86000606f92') { // Если НН Пр-т Ленина БД-2
+	$sh_guid == '87f3655d-3ccc-45f5-a70e-57f92d29c202'; 	 // + guid БД-1
+} elseif ($sh_guid == '17f7624a-09fb-11ea-8101-c86000606f92') { // Если Владивосток Кораб. наб. БД-2
+	$sh_guid = '91e54f46-e4ed-4ad8-aad7-1ec6bcd2514e'; 	 // + guid БД-1
+} elseif ($sh_guid == '8f85ce56-646a-11ea-8106-c86000606f92') { // Если Сургут БД-2
+	$sh_guid = '58f9dadc-7afe-4640-a2dc-b7abbb7cdc07'; 	 // + guid БД-1
+} else {
+	$sh_guid = $assoc[0]['val'][$h_counter]['val'][0]['val'][$file_c]['atr']['GUID']; // Из файла
+}
+		echo "sh_guid: ".$sh_guid."<br>";
+		/* One GUID only here */
 		$sh_qty = $assoc[0]['val'][$h_counter]['val'][0]['val'][$file_c]['atr']['Quantity'];
+		echo "sh_qty: ".$sh_qty."<br>";
 		$results_sh_id = $DB->Query("SELECT ID FROM b_catalog_store WHERE XML_ID='$sh_guid'");
 
-			if ($row_sh_id = $results_sh_id->Fetch()) {
+			while ($row_sh_id = $results_sh_id->Fetch()) {
 			$shop_id = $row_sh_id['ID'];
+			echo "sh_id: ".$shop_id."<br>";
+			print_r($row_sh_id);
 			}
 
 		$results_qty = $DB->Query("SELECT * FROM b_catalog_store_product WHERE STORE_ID='$shop_id' AND PRODUCT_ID='$el'"); //$el //$code
 			if ($row_qty = $results_qty->Fetch()) {
-				if ($sh_qty !== $row_qty['qty']) {
+				if ($sh_qty !== $row_qty['qty']) { // Если количества в файле и в таблице не равны
 				$results_upd = $DB->Query("UPDATE b_catalog_store_product SET AMOUNT = '$sh_qty' WHERE STORE_ID = '$shop_id' AND PRODUCT_ID = '$el'");
+				if ($results_upd) {
+					echo "sh_qty_INSERT: ".$sh_qty."<br>";
+				}
 				}
 			} else {
 			$results_insert = $DB->Query("INSERT INTO b_catalog_store_product (PRODUCT_ID, AMOUNT, STORE_ID) VALUES ('$el', '$sh_qty', '$shop_id')");
+			// Если нет инфы, значит нечего изменять
 			}
 		$file_c++;
 	}
