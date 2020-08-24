@@ -3,7 +3,7 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetTitle("true_read");
 ?>
 
-<div class="container">
+<div class="container hello git">
 
 <?
 function xml2assoc(&$xml){
